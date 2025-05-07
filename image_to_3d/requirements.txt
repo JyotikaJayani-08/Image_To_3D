@@ -1,0 +1,19 @@
+# Core libraries
+numpy>=1.26.0
+opencv-python>=4.8.0.76
+Pillow>=10.0.0
+
+# Deep learning (with Python 3.12 compatibility)
+torch>=2.1.0
+torchvision>=0.16.0
+
+# 3D processing
+trimesh>=3.23.5
+# Specify setuptools to avoid pkgutil.ImpImporter error
+setuptools>=68.0.0
+
+# Visualization
+matplotlib>=3.7.2
+
+# Web UI
+streamlit>=1.28.0
